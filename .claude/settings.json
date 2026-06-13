@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m playwright install chromium)",
+      "Bash(python -c \"import config; import browser_manager; import sniper; import main; print\\('All modules OK'\\)\")",
+      "Bash(python main.py --help)",
+      "WebSearch",
+      "Bash(adb version *)",
+      "Bash(where scoop *)",
+      "Bash(where choco *)",
+      "Bash(where winget *)",
+      "Bash(winget install *)",
+      "Bash(python -c \"import config; import adb_controller; import sniper; import main; print\\('All modules OK'\\)\")",
+      "Bash(\"C:\\\\Users\\\\29543\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\platform-tools\\\\adb.exe\" devices *)",
+      "Bash(\"C:\\\\Users\\\\29543\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\platform-tools\\\\adb.exe\" shell *)",
+      "Bash(python main.py --locate)",
+      "Bash(python -c \"from adb_controller import tap; tap\\(959, 2598\\); print\\('done'\\)\")",
+      "Bash(python -c \"import config; import adb_controller; import sniper; import main; print\\('OK'\\)\")",
+      "Bash(python main.py --time \"13:00:00\" --coords 959 2598)",
+      "Bash(python -c \"import adb_controller; print\\('OK'\\)\")",
+      "Bash(python main.py --time \"13:02:00\" --coords 959 2598)",
+      "Bash(python main.py --time \"13:03:00\" --coords 959 2598)",
+      "Bash(python -c \"from adb_controller import adb; r = adb\\(['shell', 'echo test && ls /data/local/tmp/sniper_tap.sh']\\); print\\(repr\\(r.stdout\\)\\)\")",
+      "Bash(python -c \"from adb_controller import tap; tap\\(959, 2598\\); print\\('tapped'\\)\")",
+      "Bash(python main.py --time \"13:08:00\" --coords 959 2598)",
+      "Bash(python main.py --time \"13:10:00\" --coords 959 2598)",
+      "Bash('C:\\\\Users\\\\29543\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\platform-tools\\\\adb.exe' shell 'echo '\\\\''START=999999999999999 *)",
+      "Bash(python test_speed.py)",
+      "Bash(python main.py --time \"13:28:00\" --coords 959 2598)",
+      "Bash(python main.py --time \"13:29:00\" --coords 959 2598)",
+      "Bash(python -c \"import config; import main; print\\('OK'\\)\")"
+    ]
+  }
+}
